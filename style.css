@@ -1,4 +1,38 @@
 nav {
-  text-align: left;
   position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: right; /* pushes items to the right */
+}
+
+.nav-links li {
+  display: inline; /* puts items in one line */
+  color: white;
+  margin-left: 20px;
+}
+body {
+  margin: 0;
+  padding-top: 60px;
+}
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+img {
+  border-radius: 50%;
 }

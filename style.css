@@ -1,3 +1,12 @@
+/* Reset default spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-top: 70px; /* space for fixed navbar */
+}
+
+/* Navbar */
 nav {
   position: fixed;
   top: 0;
@@ -5,34 +14,76 @@ nav {
   background-color: #333;
 }
 
+/* Navigation list */
 .nav-links {
   list-style: none;
   margin: 0;
-  padding: 10px 20px;
-  text-align: right; /* pushes items to the right */
+  padding: 15px 20px;
+  text-align: right;
 }
 
+/* Navigation items */
 .nav-links li {
-  display: inline; /* puts items in one line */
-  color: white;
+  display: inline;
   margin-left: 20px;
 }
-body {
-  margin: 0;
-  padding-top: 60px;
+
+/* Navigation links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
-table {
+
+/* Hover effect */
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main content */
+main {
   width: 80%;
   margin: auto;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
   border-collapse: collapse;
 }
 
+/* Table cells */
 td, th {
   border: 1px solid #ddd;
   padding: 15px;
   text-align: left;
 }
 
+/* Table header */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Image styling */
 img {
   border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
 }
